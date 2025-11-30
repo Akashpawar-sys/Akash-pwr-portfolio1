@@ -1,4 +1,4 @@
-name: aks portfolio
+name: aks-pwr-portfolio
 
 on:
   push:
@@ -20,4 +20,4 @@ jobs:
         aws-region: ap-south-1
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync . s3://dev-portfolio1 -delete
+      run: aws s3 sync . s3://dev-portfolio1 --delete
