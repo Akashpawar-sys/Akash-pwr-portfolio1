@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::340054472402:root"
+                "AWS": "arn:aws:iam::340054472402:user/akash-op1"
             },
             "Action": "s3:GetObject",
             "Resource": "arn:aws:s3:::dev-portfolio1/*"
